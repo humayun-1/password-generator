@@ -1,0 +1,102 @@
+body{
+    margin:0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #fff;
+}
+.wrapper{
+    background-color: #6f42c1;
+    height:max-content;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding:34px 0px;
+}
+
+.main{
+    padding:18px 60px;
+    /* border: 1px solid red; */
+    width: max-content;
+    background-color: #7952b3;
+    height: 85%;
+}
+
+.btn
+{
+    background-color: blueviolet;
+    outline: none;
+    border: none;
+    padding:10px 25px;
+    width: 100%;
+    cursor: pointer;
+    font-size: 14px;
+    color: #fff;
+    border: 1px solid purple;
+}
+
+.generated {
+    /* border: 1px solid red; */
+    height: 32px;
+    padding:4px 6px;
+    background-color: #6f42c1;
+}
+
+.generated span{
+    float: right;
+    background-color: #7952b3;
+    /* border: 1px solid red; */
+    padding: 5px 14px;
+    cursor: pointer;
+}
+
+.generated input{
+    border: none;
+    background-color: #6f42c1;
+    outline: none;
+    padding: 5px 14px;
+    width: 76%;
+    height: 66%;
+    color: #fff;
+    font-weight:500;
+    font-size: 18px;
+}
+
+.far{
+    font-size: 18px;
+}
+
+.inputs{
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 50px;
+    margin:18px 0;
+    position: relative;
+}
+
+.error::after {
+    content: '(Atleast two fields are required)';
+    position: absolute;
+    bottom: -7px;
+    left: 0;
+    color: #47474a;
+    text-decoration: underline;
+    text-decoration-color: red;
+    font-size:14px;
+}
+
+.inputs h3{
+    float: left;
+    margin: 10px 0;
+}
+.inputs input{
+    float: right;
+    margin: 10px 0;
+    width: 30%;
+    padding:8px 5px;
+    outline: none !important;
+    border: none !important;
+}
+
+input[type="checkbox"] {
+    margin-top: 17px;
+}
