@@ -65,7 +65,8 @@ function main() {
 }
 
 // copy to clipboard
-span.addEventListener('click', function () {
-    output.select();
-    document.execCommand('copy');  
+span.addEventListener('click', function (e) {
+    var copyText = document.querySelector(".output");
+    copyText.select()
+    document.execCommand("copy");
 })
