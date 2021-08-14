@@ -5,12 +5,12 @@ body{
 }
 .wrapper{
     background-color: #6f42c1;
-    height:max-content;
+    min-height:100vh;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    padding:34px 0px;
+    /* padding:34px 0px; */
 }
 
 .main{
@@ -19,6 +19,12 @@ body{
     width: max-content;
     background-color: #7952b3;
     height: 85%;
+}
+
+@media screen and (max-width:1026px) {
+    .main{
+        zoom:0.7;
+    }
 }
 
 .btn
